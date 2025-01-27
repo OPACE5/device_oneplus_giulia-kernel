@@ -11,6 +11,7 @@ oplus_bsp_eas_opt.ko
 oplus_bsp_cpufreq_health.ko
 oplus_bsp_omrg.ko
 cpufreq_bouncing.ko
+cpufreq_uag.ko
 ua_cpu_ioctl.ko
 oplus_bsp_task_overload.ko
 oplus_bsp_mm_osvelte.ko
@@ -18,6 +19,7 @@ qcom-pdc.ko
 phy-qcom-ufs.ko
 phy-qcom-ufs-qmp-v4-pineapple.ko
 phy-qcom-ufs-qrbtc-sdm845.ko
+phy-qcom-ufs-qmp-v4-crow.ko
 pinctrl-msm.ko
 pinctrl-pineapple.ko
 pinctrl-cliffs.ko
@@ -27,6 +29,7 @@ clk-dummy.ko
 gdsc-regulator.ko
 clk-rpmh.ko
 dispcc-pineapple.ko
+dispcc-volcano.ko
 gcc-cliffs.ko
 gcc-pineapple.ko
 gcc-volcano.ko
@@ -56,6 +59,9 @@ hwkm.ko
 tmecom-intf.ko
 gic_intr_routing.ko
 minidump.ko
+qcom_va_minidump.ko
+qcom_logbuf_vendor_hooks.ko
+qcom_logbuf_boot_log.ko
 gh_cpusys_vm_mem_access.ko
 qcom-pmu-lib.ko
 dcvs_fp.ko
@@ -91,6 +97,7 @@ iommu-logger.ko
 qti-regmap-debugfs.ko
 oplus_procs_load.ko
 oplus_power_notifier.ko
+qcom-i2c-pmic.ko
 qcom-spmi-pmic.ko
 qcom_dma_heaps.ko
 spmi-pmic-arb.ko
